@@ -13,3 +13,5 @@ const findGCD = (num1, num2) => {
 	return a || b;
 };
 console.log(findGCD(num1, num2));
+
+console.log(123)
