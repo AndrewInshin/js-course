@@ -1,5 +1,5 @@
 
-class Rectangle {
+/*class Rectangle {
 	constructor(height, width) {
 		this.height = height;
 		this.width = width;
@@ -12,11 +12,24 @@ class Rectangle {
 	calcArea() {
 		return this.height * this.width;
 	}
+	calcPerimeter(){
+		return 123
+	}
+}
+*/
+/*class Square extends Rectangle {
+	constructor(width) {
+		super();
+		this.width = width *2
+	}
 }
 
-const square = new Rectangle(10, 10);
 
-console.log(square.area); // 100
+
+const square = new Square(10);
+
+console.log(square.area); // 100*!/*/
+
 
 class Animal {
 	constructor(name) {
@@ -38,5 +51,6 @@ class Dog extends Animal {
 	}
 }
 
-let d = new Dog('Mitzie');
+let d = new Animal('Mitzie');
 d.speak(); // Mitzie barks.
+

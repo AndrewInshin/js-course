@@ -1,4 +1,4 @@
-let o = {
+/*let o = {
 	a: 2,
 	m: function() {
 		return this.a + 1;
@@ -13,17 +13,22 @@ let p = Object.create(o);
 
 p.a = 4; // creates a property 'a' on p
 console.log(p.m()); // 5
-
-
+console.log(o.a)*/
+/*
 function Car(make, model, year) {
 	this.make = make;
 	this.model = model;
 	this.year = year;
 }
 
-const car1 = new Car('Eagle', 'Talon TSi', 1993);
 
-console.log(car1.make);
+
+const car1 = new Car('Eagle', 'Talon TSi', 1993);
+const car2 = new Car('Ford', 'Corsworth', 1963);*/
+
+/*let a = 'abc';
+let b = new String('abc');
+console.log(typeof b)*/
 // expected output: "Eagle"
 
 
